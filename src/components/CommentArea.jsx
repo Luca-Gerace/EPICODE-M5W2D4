@@ -78,7 +78,6 @@ function CommentArea({ asin, showModal, handleCloseModal }) {
       </Modal.Body>
 
       <Modal.Footer>
-        <Button variant="secondary">Close</Button>
         <Button onClick={handleNewReview}>Add review</Button>
       </Modal.Footer>
     </Modal>
